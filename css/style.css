@@ -32,7 +32,7 @@ body {
     }
 
     .red {
-      color: #940D26;
+      color: var(--base);
     }
     .title {
       font-family: 'Anton', sans-serif;
