@@ -26,7 +26,7 @@
 <body>
 
 <section class="heading">
-  <section class="container">
+  <div class="container">
     <div class="row">
       <div class="col-md-12">
           <h2 class="title">Interactive Art with<span class="hl"> Faith</span></h2>
@@ -34,18 +34,18 @@
         <h6 class="directions">Adjust the <span class="hl">slides</span> to change the picture effects, or <br><span class="hl">change</span> the color of the border.</h6>
       </div>
     </div>
+  </div>
   </section>
 
-</section>
 
 <div class="controls">
-    <label for="spacing">Spacing:</label>
+    <label for="spacing">Border:</label>
     <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
 
     <label for="blur">Blur:</label>
     <input id="blur" type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
 
-    <label for="base">Border Color</label>
+    <label for="base">Color:</label>
     <input id="base" type="color" name="base" value="#940D26">
 </div>
 
@@ -63,6 +63,7 @@
 
     inputs.forEach(input => input.addEventListener('change', handleUpdate));
     inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
+
   </script>
 
 
