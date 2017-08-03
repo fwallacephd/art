@@ -34,6 +34,7 @@ body {
     .red {
       color: var(--base);
     }
+
     .title {
       font-family: 'Anton', sans-serif;
       margin-bottom: 0px;
@@ -47,8 +48,16 @@ body {
     .directions {
       font-family: 'Roboto', sans-serif;
       margin-top: 5px;
-      margin-bottom: 35px;
+      margin-bottom: 20px;
     }
+
+    .sub-directions {
+      font-family: 'Roboto', sans-serif;
+      font-size: 15px;
+      margin-top: 0px;
+      margin-bottom: 25px;
+}
+
     .image {
       max-width: 70%;
     }
